@@ -1,7 +1,5 @@
 # TikTok Video Scraper - Views, Likes, Shares & Comments by URL
 
-**Run it on Apify: [apify.com/clearfetch/tiktok-video-scraper](https://apify.com/clearfetch/tiktok-video-scraper)**
-
 Paste TikTok video links, get each video's full public stats without logging in: views, likes, shares, comments,
 saves, exact post time, duration, caption, hashtags, mentions, sound, and the author's followers and likes.
 **$1.00 per 1,000 videos.** Share links and photo posts work. No cookies, no proxy, no browser.
@@ -94,6 +92,10 @@ and a plain reason, such as `video not found or not public`. Those rows are free
 
 **$1.00 per 1,000 videos**: one charge per video row written. Failed links and the same video given twice are free.
 
+Paid Apify plans pay less: 10% off on Bronze, 20% on Silver and 30% on Gold and higher tiers.
+
+Apify also charges a run-start fee of $0.00005 per started GB of allocated memory (minimum one event), including runs that produce no chargeable results.
+
 ## Use cases
 
 - **Campaign reporting**: views, likes, shares and saves for every video in a campaign, on a schedule.
@@ -117,6 +119,13 @@ for how you use the data, including data protection rules for personal data such
 Run it from the Apify API or a client library, schedule it in Apify Console, or connect it to n8n, Make,
 Zapier or any MCP client through Apify's integrations. Results are available as JSON, CSV, Excel and through
 the dataset API.
+
+## More tools from clearfetch
+
+- [TikTok Scraper](https://apify.com/clearfetch/tiktok-scraper): hashtags, profiles, sounds and video stats in one Actor
+- [TikTok Profile Scraper](https://apify.com/clearfetch/tiktok-profile-scraper): followers, likes and the latest videos of any account
+- [TikTok Comments Scraper](https://apify.com/clearfetch/tiktok-comments-scraper): every comment and reply under a video
+- [Google Trends Scraper](https://apify.com/clearfetch/google-trends-scraper): interest over time, by region and related queries, plus today's trending searches
 
 ## Changelog
 
